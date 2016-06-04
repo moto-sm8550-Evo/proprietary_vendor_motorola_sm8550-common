@@ -506,7 +506,6 @@ PRODUCT_PACKAGES += \
     libflatbuffers-cpp_vendor \
     libgame_enhance \
     libgamepoweroptfeature \
-    libgdtap \
     libgeofencing \
     libgnss \
     libgnsspps \
@@ -1293,7 +1292,6 @@ PRODUCT_PACKAGES += \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
-    xtwifi-client \
     dpmd \
     qccsyshal@1.2-service \
     qspmsvc \
