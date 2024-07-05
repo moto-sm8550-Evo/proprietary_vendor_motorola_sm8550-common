@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/dlsc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dlsc.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
@@ -102,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/init.maxe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.maxe.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/init.spdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.spdaemon.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/init.spuservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.spuservice.rc \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
@@ -1227,8 +1229,16 @@ PRODUCT_PACKAGES += \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
+    init.kernel.post_boot-kalama \
+    init.kernel.post_boot-kalama_3_2_1 \
+    init.kernel.post_boot-kalama_3_4_0 \
+    init.kernel.post_boot-kalama_default_3_4_1 \
+    init.kernel.post_boot \
+    init.qcom.sensors \
+    init.qti.kernel \
     init.qti.keymaster \
     init.qti.media \
+    init.qti.qcv \
     irsc_util \
     ks \
     loadalgo \
@@ -1267,6 +1277,7 @@ PRODUCT_PACKAGES += \
     spdaemon \
     sscrpcd \
     ssgtzd \
+    system_dlkm_modprobe \
     tftp_server \
     thermal-engine-v2 \
     time_daemon \
@@ -1274,6 +1285,7 @@ PRODUCT_PACKAGES += \
     vendor.dpmd \
     vendor.qti.hardware.soter@1.0-provision \
     vendor.qti.qspmhal@1.0-service \
+    vendor_modprobe \
     vppservice \
     wfdhdcphalservice \
     wfdvndservice \

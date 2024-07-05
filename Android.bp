@@ -24567,6 +24567,62 @@ cc_prebuilt_binary {
 }
 
 sh_binary {
+    name: "init.kernel.post_boot-kalama",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-kalama.sh",
+    filename: "init.kernel.post_boot-kalama.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-kalama_3_2_1",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-kalama_3_2_1.sh",
+    filename: "init.kernel.post_boot-kalama_3_2_1.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-kalama_3_4_0",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-kalama_3_4_0.sh",
+    filename: "init.kernel.post_boot-kalama_3_4_0.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-kalama_default_3_4_1",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-kalama_default_3_4_1.sh",
+    filename: "init.kernel.post_boot-kalama_default_3_4_1.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot.sh",
+    filename: "init.kernel.post_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.sensors",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qcom.sensors.sh",
+    filename: "init.qcom.sensors.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.kernel",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qti.kernel.sh",
+    filename: "init.qti.kernel.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.qti.keymaster",
     owner: "motorola",
     src: "proprietary/vendor/bin/init.qti.keymaster.sh",
@@ -24579,6 +24635,14 @@ sh_binary {
     owner: "motorola",
     src: "proprietary/vendor/bin/init.qti.media.sh",
     filename: "init.qti.media.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.qcv",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qti.qcv.sh",
+    filename: "init.qti.qcv.sh",
     soc_specific: true,
 }
 
@@ -25722,6 +25786,14 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+sh_binary {
+    name: "system_dlkm_modprobe",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/system_dlkm_modprobe.sh",
+    filename: "system_dlkm_modprobe.sh",
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "tftp_server",
     owner: "motorola",
@@ -25930,6 +26002,14 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "vendor_modprobe",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/vendor_modprobe.sh",
+    filename: "vendor_modprobe.sh",
     soc_specific: true,
 }
 
