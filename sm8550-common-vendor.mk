@@ -415,9 +415,6 @@ PRODUCT_PACKAGES += \
     libTrustedUI \
     libTrustedUITZ \
     libTrustedUIVM \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     libadaptlaunch \
     libadm \
     libadreno_app_profiles \
@@ -430,11 +427,7 @@ PRODUCT_PACKAGES += \
     libaodoptfeature \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libar-pal \
-    libats \
     libaualgo_ainr_component \
     libaualgo_ainr_wrapper \
     libaualgo_arp_component \
@@ -556,8 +549,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
     libmcs \
     libmdmcutback \
@@ -849,9 +840,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V4-ndk \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
