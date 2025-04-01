@@ -7773,6 +7773,7 @@ cc_prebuilt_library_shared {
                 "libmdmcutback",
                 "liblog",
                 "libsysutils",
+                "libril",
                 "libc++",
                 "libc",
                 "libm",
