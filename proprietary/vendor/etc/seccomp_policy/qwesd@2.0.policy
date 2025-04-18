@@ -72,5 +72,6 @@ shutdown: 1
 ioctl: 1
 rt_sigsuspend: 1
 nanosleep: 1
+# added for gettid
 gettid: 1
 pipe2: 1
