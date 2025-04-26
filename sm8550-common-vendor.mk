@@ -819,19 +819,8 @@ PRODUCT_PACKAGES += \
     sensors.moto \
     sensors.ssc \
     libasphere \
-    libaudiopreprocessing \
-    libbc360 \
-    libbundlewrapper \
-    libdownmix \
-    libdynproc \
-    libeffectproxy \
-    libldnhncr \
-    libmsstwrapper \
     libquasar \
-    libreverbwrapper \
     libshoebox \
-    libspeakerbundle \
-    libvisualizer \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
