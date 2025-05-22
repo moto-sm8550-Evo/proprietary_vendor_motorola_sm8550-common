@@ -20968,6 +20968,8 @@ cc_prebuilt_library_shared {
                 "libhidlmemory",
                 "libc",
                 "libcutils",
+                "libbinder_ndk",
+                "vendor.qti.diaghal-V1-ndk",
                 "libc++",
                 "libm",
                 "libdl",
@@ -22434,9 +22436,9 @@ android_app_import {
 }
 
 android_app_import {
-    name: "QtiTelephony",
+    name: "QtiTelephonyService",
     owner: "motorola",
-    apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
+    apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
@@ -22445,13 +22447,14 @@ android_app_import {
 }
 
 android_app_import {
-    name: "QtiTelephonyService",
+    name: "QtiTelephony",
     owner: "motorola",
-    apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+    apk: "proprietary/system_ext/priv-app/QtiTelephony/QtiTelephony.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
+    privileged: true,
     system_ext_specific: true,
 }
 

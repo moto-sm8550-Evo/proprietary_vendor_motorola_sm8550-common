@@ -1109,8 +1109,8 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     uimgbaservice \
     ImsRcsService \
-    QtiTelephony \
     QtiTelephonyService \
+    QtiTelephony \
     WfdService \
     dpmserviceapp \
     ims \
