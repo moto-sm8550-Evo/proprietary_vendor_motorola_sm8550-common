@@ -243,7 +243,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/42_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/42_version_qcrildb.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/43_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/43_version_qcrildb.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/44_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/44_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/45_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/45_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/46_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/46_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/47_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/47_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/48_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/48_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/49_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/49_version_qcrildb.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/4_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/4_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/50_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/50_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/51_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/51_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/52_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/52_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/53_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/53_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/54_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/54_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/55_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/55_version_qcrildb.sql \
+    vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/56_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/56_version_qcrildb.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/5_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/5_version_qcrildb.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/6_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/6_version_qcrildb.sql \
     vendor/motorola/sm8550-common/proprietary/vendor/etc/qcril_database/upgrade/ecc/7_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/7_version_qcrildb.sql \
