@@ -1186,7 +1186,6 @@ PRODUCT_PACKAGES += \
     ATFWD-daemon \
     adpl \
     adsprpcd \
-    audioadsprpcd \
     cdsprpcd \
     charge_only_mode \
     cnd \
