@@ -456,7 +456,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfeutils \
     libflatbuffers-cpp_vendor \
-    libgame_enhance \
     libgeofencing \
     libgnss \
     libgnsspps \
@@ -812,7 +811,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.qconfig@1.0 \
-    vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am-V1-ndk \
