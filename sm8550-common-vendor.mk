@@ -1172,6 +1172,7 @@ PRODUCT_PACKAGES += \
     spdaemon \
     sscrpcd \
     ssgtzd \
+    ssr_setup \
     system_dlkm_modprobe \
     tftp_server \
     thermal-engine-v2 \
