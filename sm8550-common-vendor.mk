@@ -390,7 +390,6 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadropbox \
     libadsp_default_listener \
-    libadspd \
     libadsprpc \
     libagm \
     libar-pal \
