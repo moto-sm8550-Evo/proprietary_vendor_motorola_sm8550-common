@@ -405,6 +405,7 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfeutils \
     libflatbuffers-cpp_vendor \
+    libgame_enhance \
     libgeofencing \
     libgnss \
     libgnsspps \
