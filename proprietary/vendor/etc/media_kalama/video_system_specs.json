@@ -37,7 +37,8 @@
             //  0x1: 8 bit: enable.  10 bit: disable
             //  0x2: 8 bit: disable. 10 bit: enable
             //  0x3: 8 bit: enable.  10 bit: enable
-            "enc_bitrate_savings": 3
+            "enc_bitrate_savings": 3,
+            "max_retry_alloc_output_timeout": 10000 //IKSWW-101992:set time threshold to freeze app at background
         },
 
         // "DolbyVision": {
