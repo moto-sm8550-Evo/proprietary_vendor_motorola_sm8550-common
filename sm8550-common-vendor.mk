@@ -1071,9 +1071,9 @@ PRODUCT_PACKAGES += \
     dataconnection-saidl.xml \
     deviceinfo-saidl.xml \
     imsdcservice-saidl.xml \
-    manifest.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_identity_credential.xml \
+    motorola.hardware.audio.radar.xml \
     motorola.hardware.sensorext.service.xml \
     qcrilhook-saidl.xml \
     qms-saidl.xml \

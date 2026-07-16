@@ -21134,15 +21134,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "manifest.xml",
-    owner: "motorola",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest_android.hardware.drm-service.widevine.xml",
     owner: "motorola",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
@@ -21155,6 +21146,15 @@ prebuilt_etc_xml {
     name: "manifest_identity_credential.xml",
     owner: "motorola",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_identity_credential.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "motorola.hardware.audio.radar.xml",
+    owner: "motorola",
+    src: "proprietary/vendor/etc/vintf/manifest/motorola.hardware.audio.radar.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
