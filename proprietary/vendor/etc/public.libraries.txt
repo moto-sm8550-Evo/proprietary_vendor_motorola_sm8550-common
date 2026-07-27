@@ -5,7 +5,6 @@ libc++_shared.so
 libSnpeHtpV73Stub.so
 libSNPE.so
 libportrait_repair_ppl3_ocl.so
-libqti-perfd-client.so
 libadsprpc.so
 libcdsprpc.so
 libsdsprpc.so
